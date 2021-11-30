@@ -40,18 +40,30 @@ const Sidebar = () => {
 	                        <li class="menu-heading">
 			                	<span>-- Main</span>
 			                </li>
-	                        <li class="nav-item start active">
-	                            <a href="#" class="nav-link nav-toggle">
+	                        
+							<li class="nav-item start active">
+	                            <a href="/" class="nav-link nav-toggle">
 	                                <i class="material-icons">dashboard</i>
 	                                <span class="title">Dashboard</span>
+								</a>
+							</li>
+							<li class="nav-item start active">
+	                            <a href="#" class="nav-link nav-toggle">
+	                                <i class="material-icons">dashboard</i>
+	                                <span class="title">Gestión</span>
                                 	<span class="selected"></span>
                                 	<span class="arrow open"></span>
 	                            </a>
 	                            <ul class="sub-menu">
 	                                <li class="nav-item active">
-	                                    <a href="index.html" class="nav-link ">
-	                                        <span class="title">Dashboard 1</span>
+	                                    <a href="/habitaciones" class="nav-link ">
+	                                        <span class="title">Habitaciones</span>
 	                                        <span class="selected"></span>
+	                                    </a>
+	                                </li>
+									<li class="nav-item">
+	                                    <a href="/tipos" class="nav-link ">
+	                                        <span class="title">Tipos de Habitaciones</span>
 	                                    </a>
 	                                </li>
 	                                
