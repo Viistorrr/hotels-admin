@@ -17,7 +17,7 @@ const Header = () => {
                     <div className="input-group">
                         <input type="text" className="form-control" placeholder="Search..." name="query"/>
                         <span className="input-group-btn search-btn">
-                          <a href="javascript:;" className="btn submit">
+                          <a href="javascript:void(0);" className="btn submit">
                              <i className="icon-magnifier"></i>
                            </a>
                         </span>

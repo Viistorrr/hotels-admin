@@ -1,12 +1,14 @@
 import Layout from "./components/layout/Layout";
+import Dashboard from "./components/pages/Dashboard";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Layout>
-        <h1>Hotels management</h1>
+        <Dashboard/>
+       
       </Layout>
-    </div>
+    </>
   );
 }
 
